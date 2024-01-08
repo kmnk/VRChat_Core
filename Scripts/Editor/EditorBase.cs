@@ -1,6 +1,4 @@
-using System.Linq;
 using UnityEditor;
-using UnityEditor.Experimental.SceneManagement;
 using UnityEngine;
 
 namespace Kmnk.Core
@@ -34,7 +32,7 @@ namespace Kmnk.Core
 
         protected bool IsInPrefabMode()
         {
-            return PrefabStageUtility.GetCurrentPrefabStage() != null;
+            return UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage() != null;
         }
 
         protected bool IsActiveInHierarchy()

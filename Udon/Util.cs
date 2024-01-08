@@ -1,5 +1,4 @@
 using UnityEngine;
-
 using VRC.SDKBase;
 
 namespace Kmnk.Core.Udon
@@ -17,4 +16,3 @@ namespace Kmnk.Core.Udon
         }
     }
 }
-

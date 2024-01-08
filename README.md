@@ -3,4 +3,4 @@ VRChat Kmnk Core scripts
 
 ## License
 MIT License
-Copyright (c) 2022 KMNK
+Copyright (c) 2024 KMNK
